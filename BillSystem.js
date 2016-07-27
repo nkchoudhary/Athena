@@ -58,6 +58,8 @@ export default class BillSystem extends React.Component{
 		    		result[i].quantity= qty ;
 		    		result[i].acp= aprice ;
 		    		result[i].orgp= orgp ;
+		    		this.setState({ totalprice: null });
+			        this.setState({ discountprice: null });
 		    		 return this.setState({ items: result });
 		    	}
 	           
