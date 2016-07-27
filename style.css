@@ -1,0 +1,88 @@
+
+#bill {
+    width: 50%;
+    margin: 0 auto;
+    background: rgba(204, 204, 204, 0.35);
+    padding: 15px;
+}
+#bill h1{
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-shadow: 0 0 1px #a96f6f;
+    border-bottom: 1px solid #000;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+#bill .cmmn_typ{
+	margin-bottom: 5px;
+}
+#bill .cmmn_typ label {
+    width: 15%;
+    display: inline-block;
+}
+#bill .cmmn_typ input{
+    width: 80%;
+    height: 32px;
+    border-radius: 4px;
+}
+#bill .cmmn_typ select{
+    width: 80%;
+    height: 32px;
+    border-radius: 4px;
+}
+#bill button{
+    max-width: 130px;
+    width: 100%;
+    height: 32px;
+    background: #36dac3;
+    color: #fff;
+    font-weight: 700;
+}
+#bill .txtcolor{
+	color:#001fff;
+}
+
+#bill table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+#bill table th{
+	border: 1px solid #ccc;
+    padding: 3px;
+}
+#bill table td{
+	border: 1px solid #ccc;
+}
+
+#bill input[type="submit"]{
+    max-width: 130px;
+    width: 100%;
+    height: 32px;
+    background: #36dac3;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+#bill .usr_del {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 12px;
+}
+#bill .add_cart{
+	 border-bottom: 1px solid #ccc;
+    padding-bottom: 12px;
+}
+#bill .ttl_discnt {
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 8px;
+    text-transform: capitalize;
+}
+#bill .ttl_discnt span.discnt {
+    float: right;
+}
+#bill form {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 12px;
+}

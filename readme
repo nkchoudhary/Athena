@@ -1,0 +1,20 @@
+Step 1- Extract billingsystem.zip file
+Step 2- Go to root directory of billingsystem folder (cd billingsystem)
+Step 3- Run webserver from cmd/terminal 
+           node_modules/.bin/webpack-dev-server  (paste command into terminal)
+Step 4- Open browser and run localhost:3000/
+Step 5- First add items to cart before calculating price
+          Select item from select box and item type would be automatically visible.
+          Add quantity and press add to cart button 
+          Multiple items can be added to cart by repeating above process.
+          If same item is added again then quantity and price will be updated instead of new row.
+          Final calculation is based on user type means  user type discount is applicable on total sum after grocery discount.
+
+          Ex.(Item 5 is grocery type
+          price of item 1 is 100
+          after 5 % discount 
+          payable price is 95
+          If user is store employee then
+          30% of 95
+          Final price would be 66.5
+           )
